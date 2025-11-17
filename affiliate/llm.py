@@ -1,0 +1,1 @@
+# Placeholder, not implemented yet, LLM will be used to identify properties mentioned in a text
