@@ -1,0 +1,9 @@
+affiliate:
+  id: 12345
+  
+llm:
+  model: mock
+  type: mock
+  
+output:
+  suffix: _linked
