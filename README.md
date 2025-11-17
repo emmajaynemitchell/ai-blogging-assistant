@@ -15,3 +15,33 @@ Set the BOOKING_AID parameter in your env variables. In this project the aid is 
 
 The approach used here generates an affiliate link in the form 
 "https://www.booking.com/searchresults.html?ss=<`extracted_accomodation_name`>&aid=`BOOKING_AID`"
+
+## How It Works
+
+1. Reads in the markdown file of a blog post
+2. Use LLM (placeholder for now) to identify accommodation properties and their locations
+3. Create booking.com affiliate URLs for each property
+4. Find first mentions of properties and add the hyperlink
+5. Save the modified markdown to new file with `_linked` suffix
+
+## Example
+
+Input blog post mentions: "The Central Hotel in Donegal..."  
+
+Output: "The [Central Hotel](https://booking.com/searchresults.html?ss=Central+Hotel&aid=12345) in Donegal..."
+
+# Process
+## Installation
+
+1. Clone the repository, navigate to the folder.
+2. Install dependencies:  
+   ```pip install -r requirements.txt```
+
+## Running the affiliate link insertion process
+Basic use with defaults:  
+```python -m affiliate/cli examples/donegal_blog.md```
+
+Output file will be created with `_linked` suffix (e.g., `donegal_blog_linked.md`)
+
+# TLDR
+A modular Python CLI application using LangChain and HuggingFace that analyzes markdown blog posts with an LLM to identify accommodation properties, extract their names and locations, generate booking.com affiliate links, and automatically hyperlink the first mention of each property.
