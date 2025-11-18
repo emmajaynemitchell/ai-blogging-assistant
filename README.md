@@ -43,5 +43,9 @@ Basic use with defaults:
 
 Output file will be created with `_linked` suffix (e.g., `donegal_blog_linked.md`)
 
+## Testing
+To test the affiliate link feature run:` 
+``python -m pytest tests/affiliate_tests.py``
+
 # TLDR
 A modular Python CLI application using LangChain and HuggingFace that analyzes markdown blog posts with an LLM to identify accommodation properties, extract their names and locations, generate booking.com affiliate links, and automatically hyperlink the first mention of each property.
