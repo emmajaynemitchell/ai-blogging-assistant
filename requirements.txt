@@ -1,20 +1,23 @@
 certifi==2025.11.12
 charset-normalizer==3.4.4
-colorama==0.4.6
+colorama @ file:///C:/ci_311/colorama_1676422310965/work
 filelock==3.20.0
 fsspec==2025.10.0
 huggingface-hub==0.36.0
 idna==3.11
+iniconfig @ file:///C:/b/abs_70kaor_ccd/croot/iniconfig_1752653749904/work
 Jinja2==3.1.6
 jupyterlab_widgets==3.0.16
 MarkupSafe==3.0.3
 mpmath==1.3.0
 networkx==3.5
 numpy==2.3.4
-packaging==25.0
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049096285/work
 parso==0.8.5
+pluggy @ file:///C:/b/abs_dfec_m79vo/croot/pluggy_1733170145382/work
 pure_eval==0.2.3
-Pygments==2.19.2
+Pygments @ file:///C:/miniconda3/conda-bld/pygments_1762431425708/work
+pytest @ file:///C:/miniconda3/conda-bld/pytest_1758125281680/work
 PyYAML==6.0.3
 regex==2025.11.3
 requests==2.32.5
@@ -29,4 +32,3 @@ typing_extensions==4.15.0
 urllib3==2.5.0
 wcwidth==0.2.14
 widgetsnbextension==4.0.15
-pytest==8.4.2
