@@ -39,7 +39,7 @@ Output: "The [Central Hotel](https://booking.com/searchresults.html?ss=Central+H
 
 ## Running the affiliate link insertion process
 Basic use with defaults:  
-```python -m affiliate/cli examples/donegal_blog.md```
+```python -m affiliate.cli examples/donegal_blog.md```
 
 Output file will be created with `_linked` suffix (e.g., `donegal_blog_linked.md`)
 

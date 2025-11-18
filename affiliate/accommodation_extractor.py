@@ -28,7 +28,7 @@ class AccommodationExtractor:
         # For this demo it return the properties mentioned in the sample blog post
         mock_properties = [
             {"name": "Central Hotel", "location": "Donegal, Ireland"},
-            {"name": "Harvey's Pont Hotel", "location": "Donegal, Ireland"},
+            {"name": "Harvey's Point Hotel", "location": "Donegal, Ireland"},
             {"name": "Slieve League B&B", "location": "Donegal, Ireland"},
         ]
     
